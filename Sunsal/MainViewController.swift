@@ -67,7 +67,7 @@ class MainViewController: UITableViewController {
     }
     
     func showAlert(alertType: UIAlertControllerStyle) {
-        var alertController = UIAlertController(title: "안녕하세요", message: "나는 이준규입니다", preferredStyle: alertType);
+        var alertController = UIAlertController(title: "안녕하세요", message: "나는 베타 입니다", preferredStyle: alertType);
         
         alertController.addAction(UIAlertAction(title: "꺼주세요", style: .Cancel, handler: { (alertAction) -> Void in
             
