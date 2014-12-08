@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14691310E84C2DFFD51C4620 /* libPods-Sunsal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1C3DBA2A433E4BA4B0D6CE /* libPods-Sunsal.a */; };
 		7376EF471A10DC550052D94E /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376EF461A10DC550052D94E /* AlbumManager.swift */; };
+		7376EF491A10DE4E0052D94E /* codershigh.json in Resources */ = {isa = PBXBuildFile; fileRef = 7376EF481A10DE4E0052D94E /* codershigh.json */; };
 		737DB3861A0B91B500F6B061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737DB3851A0B91B500F6B061 /* AppDelegate.swift */; };
 		737DB38B1A0B91B500F6B061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737DB3891A0B91B500F6B061 /* Main.storyboard */; };
 		737DB38D1A0B91B500F6B061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737DB38C1A0B91B500F6B061 /* Images.xcassets */; };
@@ -32,6 +33,7 @@
 		08A312DF782533B57F409F6C /* Pods-Sunsal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunsal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sunsal/Pods-Sunsal.debug.xcconfig"; sourceTree = "<group>"; };
 		4603DAFC6D493653D0F586D7 /* Pods-Sunsal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunsal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sunsal/Pods-Sunsal.release.xcconfig"; sourceTree = "<group>"; };
 		7376EF461A10DC550052D94E /* AlbumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
+		7376EF481A10DE4E0052D94E /* codershigh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = codershigh.json; sourceTree = "<group>"; };
 		737DB3801A0B91B500F6B061 /* Sunsal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunsal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737DB3841A0B91B500F6B061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737DB3851A0B91B500F6B061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				7376EF461A10DC550052D94E /* AlbumManager.swift */,
 				737DB38C1A0B91B500F6B061 /* Images.xcassets */,
 				737DB38E1A0B91B500F6B061 /* LaunchScreen.xib */,
+				7376EF481A10DE4E0052D94E /* codershigh.json */,
 				737DB3831A0B91B500F6B061 /* Supporting Files */,
 				737DB3A51A0B93BB00F6B061 /* Sunsal-Bridging-Header.h */,
 			);
@@ -229,6 +232,7 @@
 				737DB38B1A0B91B500F6B061 /* Main.storyboard in Resources */,
 				737DB3901A0B91B500F6B061 /* LaunchScreen.xib in Resources */,
 				737DB38D1A0B91B500F6B061 /* Images.xcassets in Resources */,
+				7376EF491A10DE4E0052D94E /* codershigh.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

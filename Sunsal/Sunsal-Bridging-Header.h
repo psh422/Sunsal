@@ -4,3 +4,4 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <AFNetworking/AFNetworking.h>
+#import <MWPhotoBrowser/MWPhotoBrowser.h>

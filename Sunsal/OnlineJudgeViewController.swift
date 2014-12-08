@@ -54,14 +54,14 @@ class OnlineJudgeViewController: UITableViewController {
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("OJCell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("OJCell6", forIndexPath: indexPath) as UITableViewCell
 
         if let d = listArray[indexPath.row] as? [NSObject : AnyObject] {
             if let s = d["title"] as? String {
                 cell.detailTextLabel?.text = s;
             }
             if let s = d["problem_id"] as? String {
-                cell.textLabel.text = s;
+                cell.textLabel?.text = s;
             }
         }
 

@@ -13,9 +13,11 @@ class MainViewController: UITableViewController {
     @IBOutlet weak var hudCell: UITableViewCell!
     @IBOutlet weak var alertCell: UITableViewCell!
     @IBOutlet weak var actionSheetCell: UITableViewCell!
+    @IBOutlet weak var photoViewCell: UITableViewCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlbumManager.sharedManager;
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,10 +34,27 @@ class MainViewController: UITableViewController {
                 showAlert(UIAlertControllerStyle.Alert)
             } else if cell == actionSheetCell {
                 showAlert(UIAlertControllerStyle.ActionSheet)
+            } else if cell == photoViewCell {
+                photoView();
             }
         }
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true);
+    }
+    
+    func photoView() {
+        var browser = MWPhotoBrowser(delegate: AlbumManager.sharedManager);
+        
+        browser.displayActionButton = true;
+        browser.displayNavArrows = false;
+        browser.displaySelectionButtons = false;
+        browser.zoomPhotosToFill = true;
+        browser.alwaysShowControls = false;
+        browser.enableGrid = true;
+        browser.startOnGrid = true;
+        browser.enableSwipeToDismiss = true;
+        
+        self.navigationController!.pushViewController(browser, animated: true);
     }
     
     func showHUD() {
